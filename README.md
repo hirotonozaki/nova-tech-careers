@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/28122981/README.md)
+[README.md](https://github.com/user-attachments/files/28133712/README.md)
 <div align="center">
 
 # NOVA TECH CAREERS — Recruitment LP
@@ -132,19 +132,31 @@ const io = new IntersectionObserver((entries) => {
 
 ```
 nova-tech-careers/
-├── index.html              # トップページ（シングルページ構成）
-├── README.md
+├── index.html                  # トップページ（シングルページ構成）
+├── README.md                   # このファイル
+├── proposal.pdf                # 制作企画書（A4 横・全13ページ）
 ├── css/
-│   └── style.css           # スタイル（FLOCSS / CSS 変数によるトークン管理）
+│   └── style.css               # スタイル（FLOCSS / CSS 変数によるトークン管理）
 ├── js/
-│   └── script.js           # 挙動（Loader / Header / Drawer / Reveal ほか）
+│   └── script.js               # 挙動（Loader / Header / Drawer / Reveal ほか）
 └── assets/
     └── images/
-        ├── preview-mockup.webp  # README ヒーロー & OGP / SNS シェア用
-        └── qr.png               # スマホアクセス用 QR
+        ├── ogp.jpg             # OGP / SNS シェア用（1200×630）
+        ├── preview-mockup.webp # README 表示用モックアップ（WebP 軽量版）
+        ├── preview-mockup.png  # PNG 版モックアップ（フォールバック / 印刷用）
+        └── qr.png              # スマホアクセス用 QR コード
 ```
 
-CSS / JS は将来の WordPress テーマ化を見据え、`./` 始まりの相対パスで統一しています。
+### 画像アセットの用途
+
+| ファイル | 用途 | 参照元 |
+| :--- | :--- | :--- |
+| `ogp.jpg` | OGP / SNS シェア用画像（X / Facebook / Slack 等のリンクプレビュー） | `index.html` (`og:image` / `twitter:image`) |
+| `preview-mockup.webp` | README ヒーロー & スクリーンショット表示用（軽量 WebP） | `README.md` |
+| `preview-mockup.png` | PNG 版モックアップ（WebP 非対応環境・ドキュメント貼付用） | 任意（フォールバック） |
+| `qr.png` | スマホからのアクセス確認用 QR コード | 任意 |
+
+CSS / JS / 画像はすべて `./` 始まりの相対パスで統一しており、将来の WordPress テーマ化や GitHub Pages 配下のサブパス公開にも対応しています。
 
 <br />
 
@@ -171,9 +183,10 @@ DevTools のデバイスモードで主要な端末幅（375 / 390 / 430 / 768 /
 
 ## 📄 Proposal ／ 企画書
 
-設計意図・戦略・UI/UX 設計・実装方針・WordPress 化想定・振り返りまでをまとめた制作企画書（A4 横・全13ページ）を公開しています。
+設計意図・戦略・UI/UX 設計・実装方針・WordPress 化想定・振り返りまでをまとめた制作企画書（A4 横・全13ページ）です。
 
-🔗 https://hirotonozaki.github.io/nova-tech-careers-proposal/
+- 🌐 **オンライン版 (Web 表示)** ： https://hirotonozaki.github.io/nova-tech-careers-proposal/
+- 📄 **PDF 版 (リポジトリ同梱)** ： [`./proposal.pdf`](./proposal.pdf)
 
 <br />
 
