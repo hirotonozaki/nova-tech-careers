@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="color-scheme" content="dark">
+
+  <!-- ============================================================
+       SEO
+       公開URL: GitHub Pages
+       https://hirotonozaki.github.io/nova-tech-careers/
+       ============================================================ -->
+  <title>NOVA TECH CAREERS | テクノロジーで、次の時代をつくる仲間を募集中</title>
+  <meta name="description" content="NOVA TECH CAREERSは、Web制作・AI開発支援・DX推進を行う架空のテクノロジーカンパニーを想定した採用ランディングページです。若手が裁量を持って挑戦できる環境を、近未来的なビジュアルで表現しました。">
+  <meta name="theme-color" content="#0a0b14">
+  <meta name="robots" content="index,follow">
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hirotonozaki.github.io/nova-tech-careers/">
+  <meta property="og:title" content="NOVA TECH CAREERS | テクノロジーで、次の時代をつくる仲間を募集中">
+  <meta property="og:description" content="若手が裁量を持って挑戦できる環境で、新しい価値をつくる仲間を募集中。近未来IT企業を想定した架空の採用LPです。">
+  <meta property="og:site_name" content="NOVA TECH CAREERS">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://hirotonozaki.github.io/nova-tech-careers/assets/images/ogp.jpg">
+  <meta property="og:image:secure_url" content="https://hirotonozaki.github.io/nova-tech-careers/assets/images/ogp.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NOVA TECH CAREERS — テクノロジーで、次の時代をつくる。 WEB制作・AI開発支援・DX推進・UI/UX設計のチームメンバーを募集中。">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NOVA TECH CAREERS">
+  <meta name="twitter:description" content="テクノロジーで、新しいスタンダードをつくる仲間を募集中。">
+  <meta name="twitter:image" content="https://hirotonozaki.github.io/nova-tech-careers/assets/images/ogp.jpg">
+  <meta name="twitter:image:alt" content="NOVA TECH CAREERS — テクノロジーで、次の時代をつくる。">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://hirotonozaki.github.io/nova-tech-careers/">
+
+  <!-- Favicon (inline SVG, no extra request) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0b14'/%3E%3Cpath d='M9 22V10l14 12V10' stroke='%237aa2ff' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <!-- Fonts: 見出しに Manrope、本文に Noto Sans JP、コードに JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- 構造化データ (Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NOVA TECH",
+    "url": "https://hirotonozaki.github.io/nova-tech-careers/",
+    "description": "Web制作・AI開発支援・DX推進を行うテクノロジーカンパニー（架空企業）。",
+    "sameAs": ["https://github.com/hirotonozaki"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ローディング画面：CSSで0.6sフェードアウト -->
+  <div class="l-loader" id="loader" aria-hidden="true">
+    <div class="l-loader__inner">
+      <span class="l-loader__mark">N</span>
+      <span class="l-loader__bar"></span>
+    </div>
+  </div>
+
+  <!-- スキップリンク：a11y -->
+  <a class="c-skip-link" href="#main">本文へスキップ</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="l-header" id="header">
+    <div class="l-header__inner">
+      <a class="c-logo" href="#hero" aria-label="NOVA TECH CAREERS トップへ">
+        <svg class="c-logo__mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M9 22V10l14 12V10" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="c-logo__text">
+          <span class="c-logo__brand">NOVA TECH</span>
+          <span class="c-logo__sub">CAREERS</span>
+        </span>
+      </a>
+
+      <nav class="l-header__nav" aria-label="グローバルナビゲーション" id="globalNav">
+        <ul class="c-nav">
+          <li><a href="#about" class="c-nav__link">About</a></li>
+          <li><a href="#service" class="c-nav__link">Service</a></li>
+          <li><a href="#culture" class="c-nav__link">Culture</a></li>
+          <li><a href="#workstyle" class="c-nav__link">Work Style</a></li>
+          <li><a href="#interview" class="c-nav__link">Scenario Interview</a></li>
+          <li><a href="#recruit" class="c-nav__link">Recruit</a></li>
+          <li><a href="#faq" class="c-nav__link">FAQ</a></li>
+        </ul>
+        <a href="#contact" class="c-btn c-btn--sm c-btn--primary l-header__cta">Entry<span aria-hidden="true">→</span></a>
+      </nav>
+
+      <button type="button" class="c-burger" id="burger" aria-controls="globalNav" aria-expanded="false" aria-label="メニューを開く">
+        <span class="c-burger__line"></span>
+        <span class="c-burger__line"></span>
+        <span class="c-burger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="p-hero" id="hero" aria-labelledby="heroHeading">
+      <!-- 背景の装飾レイヤー（aria-hidden） -->
+      <div class="p-hero__bg" aria-hidden="true">
+        <div class="p-hero__grid"></div>
+        <div class="p-hero__orb p-hero__orb--1"></div>
+        <div class="p-hero__orb p-hero__orb--2"></div>
+        <div class="p-hero__orb p-hero__orb--3"></div>
+      </div>
+
+      <div class="p-hero__inner">
+        <p class="p-hero__eyebrow" data-reveal>
+          <span class="c-pulse" aria-hidden="true"></span>
+          NOW HIRING · 2026 SPRING
+        </p>
+
+        <h1 class="p-hero__heading" id="heroHeading" data-reveal data-reveal-delay="1">
+          <span class="p-hero__heading-line">テクノロジーで、</span>
+          <span class="p-hero__heading-line p-hero__heading-line--accent">次の時代をつくる。</span>
+        </h1>
+
+        <p class="p-hero__lead" data-reveal data-reveal-delay="2">
+          NOVA TECH は、Web 制作 ／ AI 開発支援 ／ DX 推進を通じて、<br class="u-pc-only">
+          クライアントの「次のスタンダード」を一緒につくる小さなチームです。<br>
+          年齢や経歴ではなく、 <em>「つくる意志」</em> で評価される環境を用意しています。
+        </p>
+
+        <div class="p-hero__cta" data-reveal data-reveal-delay="3">
+          <a href="#recruit" class="c-btn c-btn--primary">
+            募集職種を見る <span aria-hidden="true">→</span>
+          </a>
+          <a href="#about" class="c-btn c-btn--ghost">
+            私たちについて
+          </a>
+        </div>
+
+        <dl class="p-hero__stats" data-reveal data-reveal-delay="4" aria-label="会社の主要指標">
+          <div class="p-hero__stat">
+            <dt>Avg. Age</dt>
+            <dd><span class="p-hero__num">28</span><span class="p-hero__unit">歳</span></dd>
+          </div>
+          <div class="p-hero__stat">
+            <dt>Remote Ratio</dt>
+            <dd><span class="p-hero__num">75</span><span class="p-hero__unit">%</span></dd>
+          </div>
+          <div class="p-hero__stat">
+            <dt>Projects / Year</dt>
+            <dd><span class="p-hero__num">60</span><span class="p-hero__unit">+</span></dd>
+          </div>
+          <div class="p-hero__stat">
+            <dt>Tech Stack</dt>
+            <dd><span class="p-hero__num">15</span><span class="p-hero__unit">+</span></dd>
+          </div>
+        </dl>
+      </div>
+
+      <a href="#about" class="p-hero__scroll" aria-label="次のセクションへスクロール">
+        <span class="p-hero__scroll-text">Scroll</span>
+        <span class="p-hero__scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section class="p-section p-about" id="about" aria-labelledby="aboutHeading">
+      <div class="l-container">
+        <header class="c-section-head" data-reveal>
+          <p class="c-section-head__label">01 — About</p>
+          <h2 class="c-section-head__title" id="aboutHeading">
+            私たちは、 <em>小さく強い</em> テクノロジーチームです。
+          </h2>
+          <p class="c-section-head__desc">
+            東京を拠点に、Web 制作・AI 活用・DX 支援を組み合わせて、 課題そのものを再定義する仕事をしています。
+            「速く、美しく、本質的に」 が私たちの行動指針です。
+          </p>
+        </header>
+
+        <div class="p-about__grid">
+          <article class="c-glass-card p-about__card" data-reveal data-reveal-delay="1">
+            <p class="c-glass-card__index">M I S S I O N</p>
+            <h3 class="c-glass-card__title">テクノロジーで未来を、もっと近く。</h3>
+            <p class="c-glass-card__body">
+              新しい技術を「実装可能な形」に翻訳し、 クライアントの事業に組み込む。
+              発表会のためのテクノロジーではなく、 明日の現場で動くものを届けます。
+            </p>
+          </article>
+
+          <article class="c-glass-card p-about__card" data-reveal data-reveal-delay="2">
+            <p class="c-glass-card__index">V I S I O N</p>
+            <h3 class="c-glass-card__title">日本の中小事業者を、世界水準に。</h3>
+            <p class="c-glass-card__body">
+              大企業だけが先端テクノロジーを使える時代を終わらせる。
+              小さな会社でも、最高のデジタル体験を持てる世界をつくります。
+            </p>
+          </article>
+
+          <article class="c-glass-card p-about__card" data-reveal data-reveal-delay="3">
+            <p class="c-glass-card__index">V A L U E</p>
+            <h3 class="c-glass-card__title">「つくる意志」が、すべての出発点。</h3>
+            <p class="c-glass-card__body">
+              年齢・経歴・肩書きより、 手を動かして形にする意志を尊重します。
+              未経験でも、つくりたいものがある人を歓迎します。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SERVICE
+         ============================================================ -->
+    <section class="p-section p-service" id="service" aria-labelledby="serviceHeading">
+      <div class="l-container">
+        <header class="c-section-head" data-reveal>
+          <p class="c-section-head__label">02 — Service</p>
+          <h2 class="c-section-head__title" id="serviceHeading">
+            事業領域は、 <em>4つの軸</em> で動いています。
+          </h2>
+          <p class="c-section-head__desc">
+            それぞれが独立しているのではなく、 互いに連携して「事業課題の解像度を一段上げる」のが私たちのやり方です。
+          </p>
+        </header>
+
+        <div class="p-service__grid">
+          <article class="c-service-card" data-reveal data-reveal-delay="1">
+            <div class="c-service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="4" width="18" height="14" rx="2"/>
+                <path d="M3 8h18M7 12h6M7 15h4"/>
+              </svg>
+            </div>
+            <p class="c-service-card__num">SVC / 01</p>
+            <h3 class="c-service-card__title">Web Production</h3>
+            <p class="c-service-card__sub">Web 制作</p>
+            <p class="c-service-card__body">
+              コーポレートサイト・LP・採用サイト・EC 構築。 戦略設計から実装・運用までワンストップで担当します。
+            </p>
+            <ul class="c-service-card__tags" aria-label="技術タグ">
+              <li>HTML / CSS</li><li>JavaScript</li><li>WordPress</li><li>Figma</li>
+            </ul>
+          </article>
+
+          <article class="c-service-card" data-reveal data-reveal-delay="2">
+            <div class="c-service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/>
+              </svg>
+            </div>
+            <p class="c-service-card__num">SVC / 02</p>
+            <h3 class="c-service-card__title">AI Development</h3>
+            <p class="c-service-card__sub">AI 開発支援</p>
+            <p class="c-service-card__body">
+              LLM を活用した社内ツール・チャットボット・自動化システムの設計と実装。 PoC から本番運用まで伴走します。
+            </p>
+            <ul class="c-service-card__tags" aria-label="技術タグ">
+              <li>OpenAI API</li><li>Claude API</li><li>Python</li><li>RAG</li>
+            </ul>
+          </article>
+
+          <article class="c-service-card" data-reveal data-reveal-delay="3">
+            <div class="c-service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 7l8-4 8 4-8 4z"/>
+                <path d="M4 12l8 4 8-4M4 17l8 4 8-4"/>
+              </svg>
+            </div>
+            <p class="c-service-card__num">SVC / 03</p>
+            <h3 class="c-service-card__title">DX Consulting</h3>
+            <p class="c-service-card__sub">DX 推進支援</p>
+            <p class="c-service-card__body">
+              業務プロセスの可視化、ツール選定、社内浸透まで。 「導入して終わり」にせず、運用に根づくまで支援します。
+            </p>
+            <ul class="c-service-card__tags" aria-label="技術タグ">
+              <li>Notion</li><li>Slack</li><li>Zapier</li><li>Google Workspace</li>
+            </ul>
+          </article>
+
+          <article class="c-service-card" data-reveal data-reveal-delay="4">
+            <div class="c-service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 7h18M3 12h18M3 17h18"/>
+                <circle cx="7" cy="7" r="1.5" fill="currentColor"/>
+                <circle cx="14" cy="12" r="1.5" fill="currentColor"/>
+                <circle cx="10" cy="17" r="1.5" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="c-service-card__num">SVC / 04</p>
+            <h3 class="c-service-card__title">UI / UX Design</h3>
+            <p class="c-service-card__sub">UI / UX 設計</p>
+            <p class="c-service-card__body">
+              リサーチ・ワイヤーフレーム・プロトタイプ・デザインシステム。 「美しい」 だけでなく 「成果が出る」 設計を作ります。
+            </p>
+            <ul class="c-service-card__tags" aria-label="技術タグ">
+              <li>Figma</li><li>Design System</li><li>UX Research</li><li>Prototyping</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         CULTURE
+         ============================================================ -->
+    <section class="p-section p-culture" id="culture" aria-labelledby="cultureHeading">
+      <div class="l-container">
+        <header class="c-section-head" data-reveal>
+          <p class="c-section-head__label">03 — Culture</p>
+          <h2 class="c-section-head__title" id="cultureHeading">
+            ここで働くことは、 <em>毎日「学べる」</em> ということ。
+          </h2>
+          <p class="c-section-head__desc">
+            年功序列ではなく実力主義。 若手にも責任ある仕事を任せる。 それが NOVA TECH のスタンダードです。
+          </p>
+        </header>
+
+        <div class="p-culture__grid">
+          <div class="p-culture__item" data-reveal data-reveal-delay="1">
+            <span class="p-culture__num">01</span>
+            <h3 class="p-culture__title">若手の即戦力化</h3>
+            <p class="p-culture__body">
+              入社後はサポート案件から徐々にステップアップ。 半年〜1 年で主担当を任されるイメージです。 メンター制度で、つまずいたときに必ず手を差し伸べる体制があります。
+            </p>
+          </div>
+
+          <div class="p-culture__item" data-reveal data-reveal-delay="2">
+            <span class="p-culture__num">02</span>
+            <h3 class="p-culture__title">スピード感ある開発</h3>
+            <p class="p-culture__body">
+              意思決定は最短即日。 「やってみたい」 を 「やっている」 に変えるサイクルを大切にしています。
+            </p>
+          </div>
+
+          <div class="p-culture__item" data-reveal data-reveal-delay="3">
+            <span class="p-culture__num">03</span>
+            <h3 class="p-culture__title">成長への投資</h3>
+            <p class="p-culture__body">
+              書籍購入・勉強会参加など学習コストを支援。 学び続ける姿勢を、 制度面でもバックアップします。
+            </p>
+          </div>
+
+          <div class="p-culture__item" data-reveal data-reveal-delay="4">
+            <span class="p-culture__num">04</span>
+            <h3 class="p-culture__title">フラットなチーム</h3>
+            <p class="p-culture__body">
+              役職に関係なく意見を言える文化。 Slack の絵文字ひとつから議論が始まる、そんなチームです。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         WORK STYLE
+         ============================================================ -->
+    <section class="p-section p-workstyle" id="workstyle" aria-labelledby="workstyleHeading">
+      <div class="l-container">
+        <header class="c-section-head" data-reveal>
+          <p class="c-section-head__label">04 — Work Style</p>
+          <h2 class="c-section-head__title" id="workstyleHeading">
+            <em>「働き方」</em> も、自分で選んでいい。
+          </h2>
+          <p class="c-section-head__desc">
+            集中して開発したい日も、チームで話したい日も、 環境を自分で選択できる柔軟性があります。
+          </p>
+        </header>
+
+        <div class="p-workstyle__layout">
+          <ul class="p-workstyle__features" aria-label="働き方の特徴">
+            <li class="p-workstyle__feature" data-reveal data-reveal-delay="1">
+              <span class="p-workstyle__feature-mark" aria-hidden="true">◆</span>
+              <div>
+                <h3>フルリモート可</h3>
+                <p>原則オフィス出社は不要。月 1 回のチームデイのみ任意参加です。</p>
+              </div>
+            </li>
+            <li class="p-workstyle__feature" data-reveal data-reveal-delay="2">
+              <span class="p-workstyle__feature-mark" aria-hidden="true">◆</span>
+              <div>
+                <h3>フレックスタイム</h3>
+                <p>コアタイムなし。集中できる時間に集中する、それで結果を出します。</p>
+              </div>
+            </li>
+            <li class="p-workstyle__feature" data-reveal data-reveal-delay="3">
+              <span class="p-workstyle__feature-mark" aria-hidden="true">◆</span>
+              <div>
+                <h3>副業 OK</h3>
+                <p>本業に支障がない範囲で副業可。むしろ視野が広がることを歓迎しています。</p>
+              </div>
+            </li>
+            <li class="p-workstyle__feature" data-reveal data-reveal-delay="4">
+              <span class="p-workstyle__feature-mark" aria-hidden="true">◆</span>
+              <div>
+                <h3>機材は希望制</h3>
+                <p>MacBook Pro / Windows / モニター / 椅子。 必要な道具は会社が支給します。</p>
+              </div>
+            </li>
+          </ul>
+
+          <aside class="c-glass-card p-workstyle__tools" data-reveal data-reveal-delay="2" aria-labelledby="toolsHeading">
+            <p class="c-glass-card__index">T O O L S T A C K</p>
+            <h3 class="c-glass-card__title" id="toolsHeading">使用ツール</h3>
+            <ul class="p-workstyle__tool-list">
+              <li><span>Slack</span><em>Communication</em></li>
+              <li><span>Notion</span><em>Documentation</em></li>
+              <li><span>GitHub</span><em>Version Control</em></li>
+              <li><span>Figma</span><em>Design</em></li>
+              <li><span>Linear</span><em>Project Mgmt</em></li>
+              <li><span>VS Code</span><em>Editor</em></li>
+              <li><span>Claude</span><em>AI Assistant</em></li>
+              <li><span>Vercel</span><em>Hosting</em></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         INTERVIEW (架空の社員コメント)
+         ============================================================ -->
+    <section class="p-section p-interview" id="interview" aria-labelledby="interviewHeading">
+      <div class="l-container">
+        <header class="c-section-head" data-reveal>
+          <p class="c-section-head__label">05 — Scenario Interview</p>
+          <h2 class="c-section-head__title" id="interviewHeading">
+            <em>「ここで働くこと」</em> を、 想定メンバーインタビューで。
+          </h2>
+          <p class="c-section-head__desc">
+            実際に NOVA TECH で働いている前提で、 「こう感じていそう」 という社員像を想像して書きました。<small class="u-mute">（※架空企業のため、社員・コメントはすべてフィクションです）</small>
+          </p>
+        </header>
+
+        <div class="p-interview__grid">
+          <article class="c-interview-card" data-reveal data-reveal-delay="1">
+            <div class="c-interview-card__head">
+              <div class="c-interview-card__avatar" aria-hidden="true">
+                <span>K.S</span>
+              </div>
+              <div>
+                <p class="c-interview-card__name">坂井 健 <span>／ Frontend Engineer</span></p>
+                <p class="c-interview-card__meta">中途入社・2 年目</p>
+              </div>
+            </div>
+            <blockquote class="c-interview-card__quote">
+              <p>「未経験から入社しましたが、 <em>半年〜1 年で自分が主担当の案件を持たせてもらえた</em> のは大きかったです。 もちろん不安もあったけど、 メンターが本当に細かく見てくれる。」</p>
+            </blockquote>
+            <p class="c-interview-card__topic">挑戦できる環境</p>
+          </article>
+
+          <article class="c-interview-card" data-reveal data-reveal-delay="2">
+            <div class="c-interview-card__head">
+              <div class="c-interview-card__avatar" aria-hidden="true">
+                <span>M.A</span>
+              </div>
+              <div>
+                <p class="c-interview-card__name">青木 美咲 <span>／ UI Designer</span></p>
+                <p class="c-interview-card__meta">新卒入社・3 年目</p>
+              </div>
+            </div>
+            <blockquote class="c-interview-card__quote">
+              <p>「裁量はとにかく大きいです。 <em>提案がそのまま採用される瞬間</em> がよくあって、 一人前として扱われているのが嬉しい。 ただし責任もちゃんと付いてくる、 それが心地よい。」</p>
+            </blockquote>
+            <p class="c-interview-card__topic">裁量が大きい</p>
+          </article>
+
+          <article class="c-interview-card" data-reveal data-reveal-delay="3">
+            <div class="c-interview-card__head">
+              <div class="c-interview-card__avatar" aria-hidden="true">
+                <span>T.N</span>
+              </div>
+              <div>
+                <p class="c-interview-card__name">中村 拓海 <span>／ AI Engineer</span></p>
+                <p class="c-interview-card__meta">中途入社・1 年目</p>
+              </div>
+            </div>
+            <blockquote class="c-interview-card__quote">
+              <p>「前職と一番違うのは <em>「学ぶこと」 が業務に組み込まれている</em> 点。 新しい論文を読む時間も、 ツールを試す時間も、 ちゃんと評価される。 これは大きい。」</p>
+            </blockquote>
+            <p class="c-interview-card__topic">学び続けられる</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         RECRUIT
+         ============================================================ -->
+    <section class="p-section p-recruit" id="recruit" aria-labelledby="recruitHeading">
+      <div class="l-container">
+        <header class="c-section-head" data-reveal>
+          <p class="c-section-head__label">06 — Recruit</p>
+          <h2 class="c-section-head__title" id="recruitHeading">
+            現在、 <em>4 つのポジション</em> で募集しています。
+          </h2>
+          <p class="c-section-head__desc">
+            気になる職種があれば、 まずはカジュアル面談からどうぞ。 「合うかどうか」を一緒に確かめる時間として使っています。
+          </p>
+        </header>
+
+        <div class="p-recruit__jobs">
+          <details class="c-job" data-reveal data-reveal-delay="1">
+            <summary class="c-job__summary">
+              <span class="c-job__num">JOB / 01</span>
+              <span class="c-job__title">Frontend Engineer</span>
+              <span class="c-job__tag c-job__tag--open">未経験可</span>
+              <span class="c-job__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="c-job__body">
+              <dl>
+                <div><dt>仕事内容</dt><dd>コーポレートサイト・LP・採用サイトのフロントエンド実装。 デザインデータをもとに、 HTML/CSS/JavaScript で実装します。</dd></div>
+                <div><dt>必須スキル</dt><dd>HTML / CSS の基本理解、 何かしらのポートフォリオがあること</dd></div>
+                <div><dt>歓迎スキル</dt><dd>Sass / Vue / React の経験、 GitHub での個人開発経験、 デザインツールの使用経験</dd></div>
+                <div><dt>雇用形態</dt><dd>正社員（試用期間 3 ヶ月）</dd></div>
+                <div><dt>想定年収</dt><dd>350 万円 〜 550 万円</dd></div>
+              </dl>
+            </div>
+          </details>
+
+          <details class="c-job" data-reveal data-reveal-delay="2">
+            <summary class="c-job__summary">
+              <span class="c-job__num">JOB / 02</span>
+              <span class="c-job__title">Backend Engineer</span>
+              <span class="c-job__tag">経験者歓迎</span>
+              <span class="c-job__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="c-job__body">
+              <dl>
+                <div><dt>仕事内容</dt><dd>Web アプリ・社内システムのサーバーサイド開発。 API 設計から DB 設計、 インフラ構築まで担当します。</dd></div>
+                <div><dt>必須スキル</dt><dd>Python / Node.js / PHP いずれかの実務経験 1 年以上</dd></div>
+                <div><dt>歓迎スキル</dt><dd>AWS / GCP / Docker の経験、 LLM API の利用経験</dd></div>
+                <div><dt>雇用形態</dt><dd>正社員（試用期間 3 ヶ月）</dd></div>
+                <div><dt>想定年収</dt><dd>500 万円 〜 800 万円</dd></div>
+              </dl>
+            </div>
+          </details>
+
+          <details class="c-job" data-reveal data-reveal-delay="3">
+            <summary class="c-job__summary">
+              <span class="c-job__num">JOB / 03</span>
+              <span class="c-job__title">UI / UX Designer</span>
+              <span class="c-job__tag c-job__tag--open">未経験可</span>
+              <span class="c-job__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="c-job__body">
+              <dl>
+                <div><dt>仕事内容</dt><dd>Web サイト ／ アプリのデザイン、 デザインシステム構築、 UX リサーチ。 エンジニアと並走しながら 「使われる」 デザインをつくります。</dd></div>
+                <div><dt>必須スキル</dt><dd>Figma または同等ツールでの制作経験</dd></div>
+                <div><dt>歓迎スキル</dt><dd>HTML / CSS の理解、 ユーザーインタビューの経験</dd></div>
+                <div><dt>雇用形態</dt><dd>正社員（試用期間 3 ヶ月）</dd></div>
+                <div><dt>想定年収</dt><dd>350 万円 〜 600 万円</dd></div>
+              </dl>
+            </div>
+          </details>
+
+          <details class="c-job" data-reveal data-reveal-delay="4">
+            <summary class="c-job__summary">
+              <span class="c-job__num">JOB / 04</span>
+              <span class="c-job__title">AI Engineer</span>
+              <span class="c-job__tag">経験者歓迎</span>
+              <span class="c-job__chevron" aria-hidden="true">+</span>
+            </summary>
+            <div class="c-job__body">
+              <dl>
+                <div><dt>仕事内容</dt><dd>LLM を活用したアプリケーション開発。 RAG・エージェント設計・プロンプト最適化を通じて、 実用システムをつくります。</dd></div>
+                <div><dt>必須スキル</dt><dd>Python の実務経験、 LLM API を使ったプロトタイプ開発経験</dd></div>
+                <div><dt>歓迎スキル</dt><dd>機械学習の基礎知識、 ベクトル DB の使用経験</dd></div>
+                <div><dt>雇用形態</dt><dd>正社員（試用期間 3 ヶ月）</dd></div>
+                <div><dt>想定年収</dt><dd>600 万円 〜 1,000 万円</dd></div>
+              </dl>
+            </div>
+          </details>
+        </div>
+
+        <aside class="p-recruit__persona" data-reveal>
+          <h3 class="p-recruit__persona-title">求める人物像</h3>
+          <ul class="p-recruit__persona-list">
+            <li><span>◇</span>「分からない」を恥ずかしがらず、 自分で調べて手を動かせる人</li>
+            <li><span>◇</span>変化や不確実性を、 むしろ面白がれる人</li>
+            <li><span>◇</span>チームの成果と個人の成長を、 両方大切にできる人</li>
+            <li><span>◇</span>誰かの仕事を尊重し、 自分の仕事にも誇りを持てる人</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+
+
+    <!-- ============================================================
+         FAQ
+         ============================================================ -->
+    <section class="p-section p-faq" id="faq" aria-labelledby="faqHeading">
+      <div class="l-container">
+        <header class="c-section-head" data-reveal>
+          <p class="c-section-head__label">07 — FAQ</p>
+          <h2 class="c-section-head__title" id="faqHeading">
+            よくあるご質問
+          </h2>
+          <p class="c-section-head__desc">
+            応募前に多くの方が気になる質問をまとめました。 ここに無い質問は、お気軽にお問い合わせください。
+          </p>
+        </header>
+
+        <ul class="p-faq__list">
+          <li class="c-faq" data-reveal data-reveal-delay="1">
+            <details>
+              <summary>
+                <span class="c-faq__q">Q.</span>
+                <span class="c-faq__question">未経験ですが応募できますか？</span>
+                <span class="c-faq__icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="c-faq__answer">
+                <p>はい、可能です。 Frontend Engineer と UI / UX Designer は未経験歓迎ポジションです。 大切なのは「現時点での技術力」ではなく、 「学び続けられること」と「何かしらの制作物があること」です。 簡単な HTML / CSS の制作物や、 個人で作った Figma のデザインで構いません。</p>
+              </div>
+            </details>
+          </li>
+
+          <li class="c-faq" data-reveal data-reveal-delay="2">
+            <details>
+              <summary>
+                <span class="c-faq__q">Q.</span>
+                <span class="c-faq__question">選考フローを教えてください。</span>
+                <span class="c-faq__icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="c-faq__answer">
+                <p>① カジュアル面談 (30 分) → ② 一次面接 (60 分) → ③ 課題提出 → ④ 最終面接 (60 分) → ⑤ 内定。 平均 2 〜 3 週間程度で進めています。 状況に応じて短縮も可能です。</p>
+              </div>
+            </details>
+          </li>
+
+          <li class="c-faq" data-reveal data-reveal-delay="3">
+            <details>
+              <summary>
+                <span class="c-faq__q">Q.</span>
+                <span class="c-faq__question">どんな開発環境を使っていますか？</span>
+                <span class="c-faq__icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="c-faq__answer">
+                <p>エディタは VS Code、 バージョン管理は GitHub、 コミュニケーションは Slack、 ドキュメントは Notion を中心に使っています。 機材は希望に応じて MacBook Pro または Windows ノートを支給します。</p>
+              </div>
+            </details>
+          </li>
+
+          <li class="c-faq" data-reveal data-reveal-delay="4">
+            <details>
+              <summary>
+                <span class="c-faq__q">Q.</span>
+                <span class="c-faq__question">フルリモートでも問題ないですか？</span>
+                <span class="c-faq__icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="c-faq__answer">
+                <p>はい、ほとんどのメンバーがフルリモートで働いています。 全国どこからでも応募可能です。 月 1 回任意参加の「チームデイ」のみオフィス開催ですが、 こちらもオンライン参加可能です。</p>
+              </div>
+            </details>
+          </li>
+
+          <li class="c-faq" data-reveal data-reveal-delay="5">
+            <details>
+              <summary>
+                <span class="c-faq__q">Q.</span>
+                <span class="c-faq__question">ポートフォリオは必須ですか？</span>
+                <span class="c-faq__icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="c-faq__answer">
+                <p>必須ではありませんが、 何かしらの制作物・成果物があると選考がスムーズです。 完成度より「何を考えて作ったか」を重視します。 GitHub のリポジトリ、 デザインカンプ、 個人ブログなど形式は問いません。</p>
+              </div>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section class="p-section p-contact" id="contact" aria-labelledby="contactHeading">
+      <div class="l-container">
+        <div class="p-contact__inner" data-reveal>
+          <p class="c-section-head__label">08 — Contact</p>
+          <h2 class="p-contact__title" id="contactHeading">
+            <em>「興味がある」</em><br>
+            それだけで、 まずは話しましょう。
+          </h2>
+          <p class="p-contact__desc">
+            応募・カジュアル面談・お問い合わせ。 どれもこちらから受け付けています。<br>
+            返信は通常 2 営業日以内にお送りしています。
+          </p>
+
+          <div class="p-contact__actions">
+            <a href="mailto:careers@example.com?subject=NOVA%20TECH%20CAREERS%20%E5%BF%9C%E5%8B%9F" class="c-btn c-btn--primary c-btn--lg">
+              エントリーする <span aria-hidden="true">→</span>
+            </a>
+            <a href="mailto:careers@example.com?subject=NOVA%20TECH%20%E3%82%AB%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E9%9D%A2%E8%AB%87" class="c-btn c-btn--ghost c-btn--lg">
+              カジュアル面談を申し込む
+            </a>
+          </div>
+
+          <ul class="p-contact__links">
+            <li>
+              <a href="https://github.com/hirotonozaki" target="_blank" rel="noopener noreferrer" class="p-contact__link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.41.35.78 1.04.78 2.1v3.11c0 .31.21.67.79.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5Z"/>
+                </svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="mailto:careers@example.com" class="p-contact__link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2"/>
+                  <path d="m3 7 9 6 9-6"/>
+                </svg>
+                careers@example.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="l-footer">
+    <div class="l-container">
+      <div class="l-footer__top">
+        <div class="l-footer__brand">
+          <a class="c-logo c-logo--footer" href="#hero" aria-label="NOVA TECH トップへ">
+            <svg class="c-logo__mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M9 22V10l14 12V10" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="c-logo__text">
+              <span class="c-logo__brand">NOVA TECH</span>
+              <span class="c-logo__sub">CAREERS</span>
+            </span>
+          </a>
+          <p class="l-footer__tagline">テクノロジーで、次の時代をつくる。</p>
+        </div>
+
+        <nav class="l-footer__nav" aria-label="フッターナビゲーション">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#workstyle">Work Style</a></li>
+            <li><a href="#interview">Scenario Interview</a></li>
+            <li><a href="#recruit">Recruit</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="l-footer__bottom">
+        <small>© <span data-current-year>2026</span> NOVA TECH CAREERS. Portfolio Work.</small>
+        <small class="l-footer__note">本サイトはポートフォリオ用の架空企業の採用 LP です。</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <a href="#hero" class="c-to-top" id="toTop" aria-label="ページトップへ戻る">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="m6 14 6-6 6 6"/>
+    </svg>
+  </a>
+
+  <script src="./js/script.js" defer></script>
+</body>
+</html>
